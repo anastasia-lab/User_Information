@@ -42,7 +42,7 @@ namespace UserInformation
             Console.WriteLine($"\nОбщий балл: {TotalScore}");
 
             double AverageScore = TotalScore / 3;
-            Console.WriteLine($"Средний балл: {AverageScore}");
+            Console.WriteLine($"Средний балл: {Math.Round(AverageScore, 2)}");
 
             Console.WriteLine($"\nПочта для отправки результатов: {EmaileString}\n");
             Console.WriteLine("Итоговые баллы по:");
